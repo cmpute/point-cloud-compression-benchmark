@@ -3,7 +3,9 @@ Benchmark of compressing sequential point clouds.
 
 To run the benchmark, you need a Python environment with the following packages: `numpy`, `DracoPy`, `pcl.py`, `laspy[lazrs]`.
 
-You also need a 100-frame sequence of point cloud data. The tested data used here are generated with the CARLA simulator.
+You also need a 100-frame sequence of point cloud data.
+
+The tested data used here are generated with the CARLA simulator. Each point in the cloud has a structure of (x, y, z, intensity), all represented by 32-bit floats.
 
 ## Results
 
