@@ -1,6 +1,7 @@
 
 statistics of the point cloud used:
-total 
+
+total points: 3092875, min: [ 67.72568886 123.92000039  -4.94626987], max: [264.77093287 318.59456422  17.51620722]
 
 format: print(q, len(compressed), np.min(err), np.max(err), np.percentile(err, 95), np.mean(err), np.std(err))
 
